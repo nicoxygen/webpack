@@ -11,7 +11,8 @@ npm update
 [tuto complet](https://stevenwestmoreland.com/2018/01/how-to-include-bootstrap-in-your-project-with-webpack.html)
 
 # Installer jquery
-##dans webpack.config.js
+## dans webpack.prod.js et webpack.dev.js
+
 var webpack = require("webpack");
  plugins: [
     new webpack.ProvidePlugin({
