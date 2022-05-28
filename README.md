@@ -29,17 +29,19 @@ npm i jquery --save
 
 ## dans index.js ajoute
 
-`code`
+```bash
 import $ from 'jquery';
 window.jQuery = $;
 window.$ = $;
-
+```
 
 # Installer webp
 
 https://www.npmjs.com/package/imagemin-webp-webpack-plugin
 
-$ npm install imagemin-webp-webpack-plugin --save-dev
+```bash
+npm install imagemin-webp-webpack-plugin --save-dev
+```
 
 à intégrer dans webpack.prod.js:
 
