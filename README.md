@@ -62,3 +62,9 @@ new ImageminWebpWebpackPlugin({
 ```
 
 config: [{ test: /.(jpe?g|png|gif)/, options: { quality: 75 } }], overrideExtension: true, detailedLogs: false, silent: false, strict: true }),
+
+# Installer ionicons 4.5.6
+
+télécharger et mettre dans _scss
+
+[ionicons.css](https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css)
