@@ -45,11 +45,13 @@ npm install imagemin-webp-webpack-plugin --save-dev
 
 à intégrer dans webpack.prod.js:
 
+```yaml
 const ImageminWebpWebpackPlugin= require("imagemin-webp-webpack-plugin");
+```
 
 et
 
-```
+```yaml
 ** new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i }), **
 new ImageminWebpWebpackPlugin({
 ```
