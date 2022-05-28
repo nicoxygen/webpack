@@ -63,8 +63,6 @@ new ImageminWebpWebpackPlugin({
 
 config: [{ test: /.(jpe?g|png|gif)/, options: { quality: 75 } }], overrideExtension: true, detailedLogs: false, silent: false, strict: true }),
 
-# Installer ionicons 4.5.6
+# Installer fontawesome
 
-télécharger et mettre dans _scss
-
-[ionicons.css](https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css)
+[instruction]([https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css](https://bytepursuits.com/using-webpack-5-with-font-awesome-5))
