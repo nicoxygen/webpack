@@ -1,11 +1,11 @@
 # Installer Bootstrap
 
 ## import bootstrap
-npm install bootstrap jquery popper.js --save
-npm install exports-loader --save-dev
-npm install autoprefixer css-loader node-sass postcss-loader sass-loader style-loader --save-dev
 
+```bash
+npm install bootstrap jquery popper.js --save
 npm update
+```
 
 ### tuto complet
 [tuto complet](https://stevenwestmoreland.com/2018/01/how-to-include-bootstrap-in-your-project-with-webpack.html)
@@ -13,19 +13,24 @@ npm update
 # Installer jquery
 ## dans webpack.prod.js et webpack.dev.js
 
-var webpack = require("webpack");
+```yaml
+const webpack = require("webpack");
+....
  plugins: [
     new webpack.ProvidePlugin({
         $: "jquery",
         jQuery: "jquery"
     })
  ],
+ ```
 
 ## installer jquery
 
 [astuce sur cette page](https://stackoverflow.com/questions/28969861/managing-jquery-plugin-dependency-in-webpack)
 
+```yaml
 npm i jquery --save
+```
 
 ## dans index.js ajoute
 
@@ -37,13 +42,13 @@ window.$ = $;
 
 # Installer webp
 
-https://www.npmjs.com/package/imagemin-webp-webpack-plugin
+[webpack webp](https://www.npmjs.com/package/imagemin-webp-webpack-plugin)
 
 ```bash
 npm install imagemin-webp-webpack-plugin --save-dev
 ```
 
-à intégrer dans webpack.prod.js:
+***à intégrer dans webpack.prod.js:***
 
 ```yaml
 const ImageminWebpWebpackPlugin= require("imagemin-webp-webpack-plugin");
