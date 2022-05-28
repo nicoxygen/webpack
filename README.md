@@ -65,4 +65,8 @@ config: [{ test: /.(jpe?g|png|gif)/, options: { quality: 75 } }], overrideExtens
 
 # Installer fontawesome
 
-[instruction]([https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css](https://bytepursuits.com/using-webpack-5-with-font-awesome-5))
+[instruction]([https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css](https://bytepursuits.com/using-webpack-5-with-font-awesome-5)
+
+ou
+
+[alternative](https://stackoverflow.com/questions/52376720/how-to-make-font-awesome-5-work-with-webpack)
