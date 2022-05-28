@@ -23,6 +23,8 @@ var webpack = require("webpack");
 
 ## installer jquery
 
+[astuce sur cette page](https://stackoverflow.com/questions/28969861/managing-jquery-plugin-dependency-in-webpack)
+
 npm i jquery --save
 
 ## dans index.js ajoute
