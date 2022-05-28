@@ -29,6 +29,7 @@ npm i jquery --save
 
 ## dans index.js ajoute
 
+`code`
 import $ from 'jquery';
 window.jQuery = $;
 window.$ = $;
